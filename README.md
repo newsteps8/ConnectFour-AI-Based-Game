@@ -2,7 +2,7 @@
 
 Connect Four is a deterministic board game. We create a strategic AI model for this game. We used minimax algorithm and heuristic function to improve our strategie.
 
-
+![alt text](https://github.com/newsteps8/CalorieCalculatorApp/blob/master/Screenshot%20from%202020-02-06%2012-54-50.jpg)
 h1, h2, and h3 Explanation
 --------------------------------------
 **evaluation heuristic 1(AI1):** For AI (maximizing player), we thought it an advantage to have a lot of
