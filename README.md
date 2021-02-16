@@ -5,14 +5,14 @@ Connect Four is a deterministic board game. We create a strategic AI model for t
 
 h1, h2, and h3 Explanation
 --------------------------------------
-*evaluation heuristic 1(AI1):* For AI (maximizing player), we thought it an advantage to have a lot of
+**evaluation heuristic 1(AI1):** For AI (maximizing player), we thought it an advantage to have a lot of
 sequential double and triple groups of their pieces. That's why 10 points were added to the score for
 each group of doubles. 1000 points were added to the score for each group of three. For the
 minimizing player, 10 points were subtracted from the score for each group of doubles and 1000
 points were subtracted from the score for each group of three.
 
 
-evaluation heuristic 2(AI2): As a result of our research, we learned that it is an advantage to start the
+**evaluation heuristic 2(AI2):** As a result of our research, we learned that it is an advantage to start the
 game from the columns in the middle in the Connect Four game and to collect the player's pieces
 there during the game to win the game. For this reason, we have given different values to the
 squares on the board depending on whether it is in the middle or in the corner. For AI, we tried the
@@ -27,7 +27,7 @@ the same situation was found in the opponent player, 100000 points were subtract
 score.
 
 
-evaluation heuristic 3(AI3): For AI (maximizing player), we thought it an advantage to have a lot of
+**evaluation heuristic 3(AI3):** For AI (maximizing player), we thought it an advantage to have a lot of
 sequential double and triple groups of their pieces. That's why 10 points were added to the score for
 each group of doubles. 1000 points were added to the score for each group of three. For the
 minimizing player, 10 points were subtracted from the score for each group of doubles and 1000
