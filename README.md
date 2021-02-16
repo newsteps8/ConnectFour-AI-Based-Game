@@ -5,7 +5,7 @@ Connect Four is a deterministic board game. We create a strategic AI model for t
 
 h1, h2, and h3 Explanation
 --------------------------------------
-evaluation heuristic 1(AI1): For AI (maximizing player), we thought it an advantage to have a lot of
+*evaluation heuristic 1(AI1):* For AI (maximizing player), we thought it an advantage to have a lot of
 sequential double and triple groups of their pieces. That's why 10 points were added to the score for
 each group of doubles. 1000 points were added to the score for each group of three. For the
 minimizing player, 10 points were subtracted from the score for each group of doubles and 1000
