@@ -2,8 +2,13 @@
 
 Connect Four is a deterministic board game. We create a strategic AI model for this game. We used minimax algorithm and heuristic function to improve our strategie.
 
+**Minimax Search Tree**
+
 ![alt text](https://github.com/newsteps8/ConnectFour-AI-Based-Game/blob/main/minimaxtree.png)
-h1, h2, and h3 Explanation
+
+
+
+heuristic 1, heuristic 2, and heuristic 3 Explanation
 --------------------------------------
 **evaluation heuristic 1(AI1):** For AI (maximizing player), we thought it an advantage to have a lot of
 sequential double and triple groups of their pieces. That's why 10 points were added to the score for
